@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 by Rimya</title>
+    <style>
+      body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-top: 100px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <a class="navbar-brand" href="https://e7.pngegg.com/pngimages/888/34/png-clipart-red-phoenix-logo-greenville-winston-salem-preparatory-academy-winston-township-sport-phoenix-logo-united-states.png">
+            <div class="logo-image">
+                  <img src="https://e7.pngegg.com/pngimages/888/34/png-clipart-red-phoenix-logo-greenville-winston-salem-preparatory-academy-winston-township-sport-phoenix-logo-united-states.png" height:"50" width="50">
+            </div>
+      </a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+        <button class="btn">Call now</button>
+      </div>
+      
+    <div class="main">
+      <div class="card">
+        <img src="https://www.dotcom.com.pk/wp-content/uploads/2021/09/1-300x300.png" alt="Denim Jeans" style="width:100%">
+        <h1>Acer Nitro An515-45-R5T9</h1>
+        <p class="price">$199,999</p>
+        <p>Best seller, new laptop, Acer</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="https://www.asus.com/media/Odin/Websites/global/ProductLine/20200824120814.jpg" alt="Denim Jeans" style="width:100%">
+        <h1>ROG Zephyrus</h1>
+        <p class="price">$299,999</p>
+        <p>AMD Ryzen, 8GB, Window 11</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+</body>
+</html>
